@@ -1,0 +1,13 @@
+html,body {
+    background-color: grey;
+    height: 100%;
+}
+
+header {
+    background-color: white;
+    color: #444444;
+}
+
+h1 {
+    font-size: 6rem;
+}
