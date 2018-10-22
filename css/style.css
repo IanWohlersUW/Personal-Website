@@ -11,3 +11,25 @@ header {
 h1 {
     font-size: 6rem;
 }
+
+.nav-arrow {
+    position: relative;
+    color: #444444;
+    font-size: 4rem;
+    transition: 0.5s;
+}
+
+.nav-arrow:hover {
+    color: grey;
+    transform: translate(0px, 10px);
+    transition: 0.5s;
+}
+
+@keyframes movement {
+    0% {
+        bottom: 0px;
+    }
+    100% {
+        bottom: 10px;
+    }
+} 
